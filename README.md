@@ -39,7 +39,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - {role: avanov.jenkins }
+         - {role: avanov.jenkins, jenkins_http_port: 8888 }
 
 License
 -------
